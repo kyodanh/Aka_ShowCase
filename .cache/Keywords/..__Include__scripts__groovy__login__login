@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "keywordFileContentHash": "512C90D8B5D5A6EB05572481CBE77BEC",
+=======
+  "keywordFileContentHash": "2B22EFB26CDB9811AC4977E98B92A0E6",
+>>>>>>> branch 'Quynv36' of https://github.com/kyodanh/Aka_ShowCase_Auto.git
   "keywordClasses": [
     {
       "name": "login.login",
