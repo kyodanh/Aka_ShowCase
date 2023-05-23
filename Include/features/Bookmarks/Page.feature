@@ -39,6 +39,7 @@ Feature: Thực hiện mở trang và thêm mới page
     When Nhấn Login để thực hiện đăng nhập
     And Mở màn hình page
     And Thực hiện tìm kiếm một page <Test>
+    And Thực hiện xóa một page
     Then Hoàn thành thêm mới và đóng hệ thống
 
     Examples: 
