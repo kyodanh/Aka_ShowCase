@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Chọn file</name>
+   <name>category</name>
    <tag></tag>
-   <elementGuidId>3cf002f2-bc7c-44c9-8298-22d849da57b8</elementGuidId>
+   <elementGuidId>def55029-484d-477f-8ca9-50aa0965934a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;async-upload&quot;]</value>
+         <value>//*[@id=&quot;tech_catdiv&quot;]/div[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Chọn file</name>
+   <name>btn_chonhinh</name>
    <tag></tag>
-   <elementGuidId>3cf002f2-bc7c-44c9-8298-22d849da57b8</elementGuidId>
+   <elementGuidId>83cdfc24-2de8-44d1-91d0-9d2f8ac13852</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;async-upload&quot;]</value>
+         <value>//*[@id=&quot;__wp-uploader-id-0&quot;]/div[4]/div/div[2]/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

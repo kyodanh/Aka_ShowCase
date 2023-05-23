@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Chọn file</name>
+   <name>positions</name>
    <tag></tag>
-   <elementGuidId>3cf002f2-bc7c-44c9-8298-22d849da57b8</elementGuidId>
+   <elementGuidId>ce1e20e0-a52d-444a-95c1-0f107bc07467</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;async-upload&quot;]</value>
+         <value>//*[@id=&quot;position-tabs&quot;]/li[1]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Chọn file</name>
+   <name>button_publish</name>
    <tag></tag>
-   <elementGuidId>3cf002f2-bc7c-44c9-8298-22d849da57b8</elementGuidId>
+   <elementGuidId>4457b049-c129-4db5-83d8-062d21279ab5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;async-upload&quot;]</value>
+         <value>//*[@id=&quot;publish&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

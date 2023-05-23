@@ -1,8 +1,8 @@
 {
-  "keywordFileContentHash": "F9CE7F7F93E0BA36BB70CC44B1E39FAA",
+  "keywordFileContentHash": "6D167CCE12D491F9143250C5A8077DB9",
   "keywordClasses": [
     {
-      "name": "page.Page",
+      "name": "news.news",
       "keywordMethods": []
     }
   ],

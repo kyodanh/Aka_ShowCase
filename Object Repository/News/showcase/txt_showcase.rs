@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Chọn file</name>
+   <name>txt_showcase</name>
    <tag></tag>
-   <elementGuidId>3cf002f2-bc7c-44c9-8298-22d849da57b8</elementGuidId>
+   <elementGuidId>c38e41ed-1e05-49d2-9b82-2f97af41e4cd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;async-upload&quot;]</value>
+         <value>//*[@id=&quot;acf-group_637c4d790e34e&quot;]/div[2]/div/div[2]/span/span[1]/span/ul/li/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
