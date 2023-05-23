@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>test</name>
+   <name>btn_addnew</name>
    <tag></tag>
-   <elementGuidId>ef2fe18c-c51c-41b3-b942-7cce2b4fac08</elementGuidId>
+   <elementGuidId>66eff913-3044-423c-b2a0-3d52f6bf0312</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;__attachments-view-51&quot;]</value>
+         <value>//*[@id=&quot;wpbody-content&quot;]/div[4]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

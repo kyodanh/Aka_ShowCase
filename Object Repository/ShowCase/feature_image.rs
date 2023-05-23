@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>test</name>
+   <name>feature_image</name>
    <tag></tag>
-   <elementGuidId>ef2fe18c-c51c-41b3-b942-7cce2b4fac08</elementGuidId>
+   <elementGuidId>2b15fa4f-e4b0-4df0-97e3-a9c78176dcfa</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;set-post-thumbnail&quot;]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;__attachments-view-51&quot;]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

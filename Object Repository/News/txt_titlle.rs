@@ -3,11 +3,10 @@
    <description></description>
    <name>txt_titlle</name>
    <tag></tag>
-   <elementGuidId>68a1acb1-673a-4bb1-81ba-89ab83b883f7</elementGuidId>
+   <elementGuidId>d8e439a2-63ed-4f06-adc6-6cb94e2343e2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>

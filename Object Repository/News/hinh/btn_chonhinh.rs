@@ -3,11 +3,10 @@
    <description></description>
    <name>btn_chonhinh</name>
    <tag></tag>
-   <elementGuidId>83cdfc24-2de8-44d1-91d0-9d2f8ac13852</elementGuidId>
+   <elementGuidId>a1e5c534-4c02-4f67-9f46-a875a8f8448f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>

@@ -3,11 +3,10 @@
    <description></description>
    <name>button_publish</name>
    <tag></tag>
-   <elementGuidId>4457b049-c129-4db5-83d8-062d21279ab5</elementGuidId>
+   <elementGuidId>197e1154-4fae-494b-9643-02468bd1c14d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>

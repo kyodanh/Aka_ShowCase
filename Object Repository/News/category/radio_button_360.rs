@@ -3,11 +3,10 @@
    <description></description>
    <name>radio_button_360</name>
    <tag></tag>
-   <elementGuidId>cc2d3cca-0e8d-4c65-a109-6feaedfe9ad1</elementGuidId>
+   <elementGuidId>3ee3d968-0a40-4942-9f7f-c55d074224e0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>

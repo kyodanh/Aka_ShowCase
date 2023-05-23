@@ -3,11 +3,10 @@
    <description></description>
    <name>positions</name>
    <tag></tag>
-   <elementGuidId>ce1e20e0-a52d-444a-95c1-0f107bc07467</elementGuidId>
+   <elementGuidId>e38c484f-241f-4748-87a9-c5d62a62d8a7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>

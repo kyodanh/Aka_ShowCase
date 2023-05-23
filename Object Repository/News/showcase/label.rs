@@ -3,11 +3,10 @@
    <description></description>
    <name>label</name>
    <tag></tag>
-   <elementGuidId>5f67d031-1796-4cbe-bbab-c6fd6928d508</elementGuidId>
+   <elementGuidId>35838174-cc11-4362-b096-1de1fcec7832</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>

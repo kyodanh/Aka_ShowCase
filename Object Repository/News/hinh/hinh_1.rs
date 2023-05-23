@@ -3,11 +3,10 @@
    <description></description>
    <name>hinh_1</name>
    <tag></tag>
-   <elementGuidId>13b9788e-9747-41c2-8d03-079973c71b25</elementGuidId>
+   <elementGuidId>16b3e6e9-97cb-49f0-898d-c1697f655258</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>

@@ -3,11 +3,10 @@
    <description></description>
    <name>feature_image</name>
    <tag></tag>
-   <elementGuidId>2b15fa4f-e4b0-4df0-97e3-a9c78176dcfa</elementGuidId>
+   <elementGuidId>44b69272-c14c-4727-9d01-5b011f3a7c59</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>

@@ -3,14 +3,14 @@
    <description></description>
    <name>test</name>
    <tag></tag>
-   <elementGuidId>ef2fe18c-c51c-41b3-b942-7cce2b4fac08</elementGuidId>
+   <elementGuidId>0803b750-f60f-4352-b113-573140981e7b</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//*[@id=&quot;__attachments-view-51&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

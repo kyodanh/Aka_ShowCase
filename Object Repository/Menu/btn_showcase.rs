@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>test</name>
+   <name>btn_showcase</name>
    <tag></tag>
-   <elementGuidId>ef2fe18c-c51c-41b3-b942-7cce2b4fac08</elementGuidId>
+   <elementGuidId>b4055dcf-4b21-4ea5-81d7-4c45d03165d2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;__attachments-view-51&quot;]</value>
+         <value>//*[@id=&quot;menu-posts-showcase&quot;]/a/div[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

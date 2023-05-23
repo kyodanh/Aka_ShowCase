@@ -3,11 +3,10 @@
    <description></description>
    <name>btn_add_new</name>
    <tag></tag>
-   <elementGuidId>38adedc6-7c9a-4ee9-85f9-5627ae31dabe</elementGuidId>
+   <elementGuidId>666d02cb-31f0-45cd-b999-eb32a4351d48</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>

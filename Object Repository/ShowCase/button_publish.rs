@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>test</name>
+   <name>button_publish</name>
    <tag></tag>
-   <elementGuidId>ef2fe18c-c51c-41b3-b942-7cce2b4fac08</elementGuidId>
+   <elementGuidId>4457b049-c129-4db5-83d8-062d21279ab5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;publish&quot;]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;__attachments-view-51&quot;]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

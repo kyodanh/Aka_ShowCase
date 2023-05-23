@@ -3,15 +3,15 @@
    <description></description>
    <name>body_test noi dunghtml1</name>
    <tag></tag>
-   <elementGuidId>c132be7d-7303-4356-8ef7-fe06342f5be4</elementGuidId>
+   <elementGuidId>24deff55-b6f1-46ee-97fd-c0e11dbaf395</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#tinymce</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//body[@id='tinymce']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#tinymce</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>body</value>
-      <webElementGuid>e3701816-83ef-4932-a77a-35a8c5ab6693</webElementGuid>
+      <webElementGuid>9fb468fd-5511-4a38-aab5-ee1e4dd50078</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>tinymce</value>
-      <webElementGuid>ce4740b2-acb2-4067-865a-b3ee6cbcc0e3</webElementGuid>
+      <webElementGuid>9945dfd5-1c04-4b7d-bc4c-ed103836730d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mce-content-body content post-type-new post-status-auto-draft page-template-default locale-en-us mceContentBody webkit wp-editor wp-autoresize html5-captions</value>
-      <webElementGuid>39c00686-b611-42e3-a395-6ac630467327</webElementGuid>
+      <webElementGuid>46533917-31d8-4ec6-891c-bc18460a62cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>data-id</name>
       <type>Main</type>
       <value>content</value>
-      <webElementGuid>a09fa753-9b2b-43b7-80eb-6ab757241824</webElementGuid>
+      <webElementGuid>be9cbe96-70c2-4b74-a800-4f18c894eecd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>contenteditable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>27d60039-42db-4672-b1ed-49bf8ca020e2</webElementGuid>
+      <webElementGuid>8a215630-6be1-4f2d-9dec-abe8c251cc9d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>dir</name>
       <type>Main</type>
       <value>ltr</value>
-      <webElementGuid>86f175ac-abfb-4bbe-ad1a-b00840b6086a</webElementGuid>
+      <webElementGuid>3b6cd4ec-4ee9-450f-b393-31f2c4081dff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>text</name>
       <type>Main</type>
       <value>test noi dung/html[1]</value>
-      <webElementGuid>63ddec4d-1aec-4942-b351-79d0f133cb07</webElementGuid>
+      <webElementGuid>957615f2-5774-43c0-bd1d-367d8d041750</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;tinymce&quot;)</value>
-      <webElementGuid>1792bb43-dab0-4690-b71d-e65b6c983be8</webElementGuid>
+      <webElementGuid>2b5dc3cd-037c-4b6e-a84b-71c11f0efb00</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/demo_sd/Page_Add New New  The akaVerse App  WordPress/iframe_Georgia_content_ifr</value>
-      <webElementGuid>8a0cd59c-fc5d-43d0-852e-a52518b51211</webElementGuid>
+      <webElementGuid>76b9cdbe-bdfd-43b2-9dfb-e98936e84039</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//body[@id='tinymce']</value>
-      <webElementGuid>64aef2ba-8228-4511-a61d-25f30836c7d5</webElementGuid>
+      <webElementGuid>0d150dd0-bbb7-4ee3-9e5e-ed15c261dea5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//body</value>
-      <webElementGuid>e1bd86db-ca80-4923-bc94-4ce4253b2798</webElementGuid>
+      <webElementGuid>685e6ebc-1d40-4b9f-bd92-e8a8014aa6c0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//body[@id = 'tinymce' and (text() = 'test noi dung/html[1]' or . = 'test noi dung/html[1]')]</value>
-      <webElementGuid>06be82e7-353f-4322-901e-cec6a67a0c71</webElementGuid>
+      <webElementGuid>15977034-125c-4b13-ae0c-e4d5e487abf5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

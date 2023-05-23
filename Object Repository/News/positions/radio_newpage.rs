@@ -3,11 +3,10 @@
    <description></description>
    <name>radio_newpage</name>
    <tag></tag>
-   <elementGuidId>c38d1cfb-5181-41ec-ae1c-1fc0ea16863d</elementGuidId>
+   <elementGuidId>93d53097-002a-443d-89b3-3ad959e8d6ad</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>

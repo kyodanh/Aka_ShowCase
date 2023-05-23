@@ -3,11 +3,10 @@
    <description></description>
    <name>txt_showcase</name>
    <tag></tag>
-   <elementGuidId>c38e41ed-1e05-49d2-9b82-2f97af41e4cd</elementGuidId>
+   <elementGuidId>877b184f-442f-4a06-872f-57526dba584c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>

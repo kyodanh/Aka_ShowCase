@@ -172,6 +172,6 @@ WebUI.setText(findTestObject('Object Repository/demo_sd/Page_Add New New  The ak
 	@Then("Hệ thống hiển thị thông báo thành công")
 	public void hệ_thống_hiển_thị_thông_báo_thành_công() {
 		// Write code here that turns the phrase above into concrete actions
-
+        
 	}
 }
