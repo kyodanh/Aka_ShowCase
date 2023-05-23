@@ -77,11 +77,11 @@ class login {
 	public void hệ_thống_thông_báo_thành_công_và_chuyển_tới_màn_hình_dashboard() {
 		// Write code here that turns the phrase above into concrete actions
 		def dashboard = WebUI.getText(findTestObject("Object Repository/Dashboard/txt_dashboard"))
-		
+
 		if (dashboard == "Dashboard") {
-		KeywordUtil.logInfo("Hệ thống đã chuyển tới trang "+ dashboard)
-		}else 
-		KeywordUtil.logInfo("Hệ thống không chuyển tới trang "+ dashboard)
-		
+			KeywordUtil.logInfo("Hệ thống đã chuyển tới trang "+ dashboard)
+		}else
+			KeywordUtil.logInfo("Hệ thống không chuyển tới trang "+ dashboard)
+
 	}
 }
