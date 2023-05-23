@@ -1,8 +1,8 @@
 {
-  "keywordFileContentHash": "512C90D8B5D5A6EB05572481CBE77BEC",
+  "keywordFileContentHash": "6D167CCE12D491F9143250C5A8077DB9",
   "keywordClasses": [
     {
-      "name": "login.login",
+      "name": "news.news",
       "keywordMethods": []
     }
   ],
