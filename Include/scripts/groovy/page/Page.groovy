@@ -70,9 +70,17 @@ class Page {
 	@When("Thực hiện tìm kiếm một page (.*)")
 	public void thực_hiện_tìm_kiếm_một_page_Meo(String Test) {
 		// Write code here that turns the phrase above into concrete actions
-		WebUI.click(findTestObject("Object Repository/Page/Seachbox"))		
+		WebUI.click(findTestObject("Object Repository/Page/Seachbox"))
 		WebUI.sendKeys(findTestObject("Object Repository/Page/Seachbox"), Test)
 		WebUI.click(findTestObject("Object Repository/Page/btn_Seach"))
+
+	}
+	@When("Thực hiện xóa một page")
+	public void thực_hiện_xóa_một_page() {
+		// Write code here that turns the phrase above into concrete actions
+		WebUI.click(findTestObject("Object Repository/Page/Checkxoa"))	
+		WebUI.click(findTestObject("Object Repository/Page/Xoa"))
 		
 	}
+	
 }
