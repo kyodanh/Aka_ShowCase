@@ -58,11 +58,12 @@ class medialibrary {
 	@And("Thêm mới một Medialibrary")
 	public void thêm_mới_một_Meo_Medialibrary() {
 		// Write code here that turns the phrase above into concrete actions
+		WebUI.uploadFile(findTestObject('Object Repository/MediaLibrary/Chọn file'), 'C:\\Users\\quynv36\\git\\Aka_ShowCase_Auto\\a.jpg')
 		
 		
 		
 //		WebUI.waitForPageLoad(5)
-//		WebUI.uploadFile(findTestObject('Object Repository/MediaLibrary/Chọn file'), 'C:\\Users\\DanhNC14\\Desktop\\Apps\\Auto_Test\\Aka_ShowCase_Auto\\a.jpg')
+//	WebUI.uploadFile(findTestObject('Object Repository/MediaLibrary/Chọn file'), 'C:\\Users\\DanhNC14\\Desktop\\Apps\\Auto_Test\\Aka_ShowCase_Auto\\a.jpg')
 //		WebUI.waitForPageLoad(5)
 	}
 }

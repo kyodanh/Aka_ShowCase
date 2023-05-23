@@ -95,6 +95,7 @@ class bookmarks {
 	@Then("Hoàn thành thêm mới và đóng hệ thống")
 	public void hoàn_thành_thêm_mới_và_đóng_hệ_thống() {
 		// Write code here that turns the phrase above into concrete actions
+		WebUI.waitForPageLoad(8)
 		WebUI.closeBrowser()
 	}
 }

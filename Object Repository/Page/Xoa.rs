@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Checkxoa</name>
+   <name>Xoa</name>
    <tag></tag>
-   <elementGuidId>46483140-91e4-44a4-94bb-70f6deb23b11</elementGuidId>
+   <elementGuidId>f55ffec6-b7c6-4284-bfc0-a6c2cb2b52cd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;cb-select-976&quot;]</value>
+         <value>//*[@id=&quot;bulk-action-selector-top&quot;]/option[3]</value>
       </entry>
       <entry>
          <key>BASIC</key>
