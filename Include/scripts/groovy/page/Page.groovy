@@ -1,4 +1,4 @@
-package login
+package page
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -44,38 +44,35 @@ import cucumber.api.java.en.When
 
 
 
-class login {
+class Page {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	@Given("User thực hiện truy cập vào hệ thống")
-	public void user_thực_hiện_truy_cập_vào_hệ_thống() {
+	@When("Mở màn hình page")
+	public void mở_màn_hình_page() {
 		// Write code here that turns the phrase above into concrete actions
-		WebUI.openBrowser("")
-		WebUI.navigateToUrl("https://dev.akaverse.net/theakaverseappapi/wp-login.php?loggedout=true&wp_lang=en_US")
-		WebUI.maximizeWindow()
-	}
-
-	@When("User nhập thông tin (.*) và (.*)")
-	public void user_nhập_thông_tin_testuser_và_akv_âs(String username , String password) {
-		// Write code here that turns the phrase above into concrete actions
-		WebUI.click(findTestObject("Object Repository/Login/username"))
-		WebUI.sendKeys(findTestObject("Object Repository/Login/username"), username)
-		WebUI.click(findTestObject("Object Repository/Login/password"))
-		WebUI.sendKeys(findTestObject("Object Repository/Login/password"), password)
+		WebUI.click(findTestObject("Object Repository/Page/Pages"))
 
 	}
 
-
-	@Then("User thực hiện bấm login")
-	public void user_thực_hiện_bấm_login() {
+	@When("Thực hiện thêm mới một page (.*)")
+	public void thực_hiện_thêm_mới_một_page_Meo(String Test) {
 		// Write code here that turns the phrase above into concrete actions
-		WebUI.click(findTestObject("Object Repository/Login/btn_login"))
+		WebUI.click(findTestObject("Object Repository/Page/Addnew"))
+		WebUI.click(findTestObject("Object Repository/Page/Textboxthemmoi"))
+		WebUI.sendKeys(findTestObject("Object Repository/Page/Textboxthemmoi"), Test)
+		WebUI.click(findTestObject("Object Repository/Page/btnAddmedia"))
+		WebUI.click(findTestObject("Object Repository/Page/Chọn media"))
+		WebUI.click(findTestObject("Object Repository/Page/btn_Themmedia"))
+		WebUI.click(findTestObject("Object Repository/Page/Publishpage"))
+
 	}
-
-	@Then("Hệ thống thông báo thành công và chuyển tới màn hình dashboard")
-	public void hệ_thống_thông_báo_thành_công_và_chuyển_tới_màn_hình_dashboard() {
+	@When("Thực hiện tìm kiếm một page (.*)")
+	public void thực_hiện_tìm_kiếm_một_page_Meo(String Test) {
 		// Write code here that turns the phrase above into concrete actions
-
+		WebUI.click(findTestObject("Object Repository/Page/Seachbox"))		
+		WebUI.sendKeys(findTestObject("Object Repository/Page/Seachbox"), Test)
+		WebUI.click(findTestObject("Object Repository/Page/btn_Seach"))
+		
 	}
 }

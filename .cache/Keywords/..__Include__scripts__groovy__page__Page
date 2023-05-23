@@ -1,8 +1,8 @@
 {
-  "keywordFileContentHash": "2B22EFB26CDB9811AC4977E98B92A0E6",
+  "keywordFileContentHash": "F3112BC8FF2B0700F2A82F24B1D9EF9F",
   "keywordClasses": [
     {
-      "name": "login.login",
+      "name": "page.Page",
       "keywordMethods": []
     }
   ],
