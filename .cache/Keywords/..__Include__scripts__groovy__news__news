@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "60820313A9C629A605F18C7207713BBB",
+  "keywordFileContentHash": "F9D452D15EABCA98FDACFA4E02946691",
   "keywordClasses": [
     {
       "name": "news.news",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

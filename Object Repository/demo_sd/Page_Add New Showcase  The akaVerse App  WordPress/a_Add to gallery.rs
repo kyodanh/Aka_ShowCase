@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Add to gallery</name>
+   <tag></tag>
+   <elementGuidId>2aa5b396-2cfa-44aa-9f28-a07cc1da4dfc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.acf-button.button.button-primary.acf-gallery-add</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='acf-field_63d74ab7fb2e4']/div/div[2]/ul/li/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>b4bf1a66-261d-412b-a61a-30177fd9c3fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>ef8a2e94-57eb-48e3-abe7-9205b9b2601a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>acf-button button button-primary acf-gallery-add</value>
+      <webElementGuid>464c01e3-5eea-4d30-a1f7-9db86d886a3d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add to gallery</value>
+      <webElementGuid>449b47e9-6ace-4a5e-a3b8-a4a265f0b384</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;acf-field_63d74ab7fb2e4&quot;)/div[@class=&quot;acf-gallery-main&quot;]/div[@class=&quot;acf-gallery-toolbar&quot;]/ul[@class=&quot;acf-hl&quot;]/li[1]/a[@class=&quot;acf-button button button-primary acf-gallery-add&quot;]</value>
+      <webElementGuid>ca07af17-b1b9-4311-b580-011d33f6e338</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='acf-field_63d74ab7fb2e4']/div/div[2]/ul/li/a</value>
+      <webElementGuid>8b4c690f-9114-4dd4-a00a-7d424bb7efe7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Add to gallery')]</value>
+      <webElementGuid>84d4a6c2-635f-46a3-bd8a-39c3ae70ba37</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gallery'])[1]/following::a[1]</value>
+      <webElementGuid>27ec4689-e4fe-43ec-af9d-b8da5dbc5dae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logo'])[1]/following::a[4]</value>
+      <webElementGuid>e23fce25-65df-4475-8211-560ab58719db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Type'])[1]/preceding::a[3]</value>
+      <webElementGuid>7b43b912-9314-4a70-b829-d03b8d9f3b77</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Video link'])[1]/preceding::a[3]</value>
+      <webElementGuid>e29dda89-e607-488b-818d-76753cdc54ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Add to gallery']/parent::*</value>
+      <webElementGuid>6956296c-0e2d-4491-959e-e108b366d3f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[26]</value>
+      <webElementGuid>7daf8bda-21e2-44de-bbad-e20f38de56b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/ul/li/a</value>
+      <webElementGuid>d9acfffb-04d2-4d93-8b99-816a345a0728</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#' and (text() = 'Add to gallery' or . = 'Add to gallery')]</value>
+      <webElementGuid>06ac4c40-d170-4dd6-b044-bbbd435c9c98</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

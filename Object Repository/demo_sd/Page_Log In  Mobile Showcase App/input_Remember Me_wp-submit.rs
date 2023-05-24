@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>244b64ba-a860-4122-8910-d377d137a1ad</webElementGuid>
+      <webElementGuid>5f2e5ad3-1efa-495b-b332-e691f65c7068</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>74e008e0-9390-490e-a89f-41d5ddbe0e12</webElementGuid>
+      <webElementGuid>47085e5f-d401-4ba6-aed5-d6c58bdf6d5e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>wp-submit</value>
-      <webElementGuid>a87c61be-c76a-4812-9261-20e99ed66ee6</webElementGuid>
+      <webElementGuid>6bd0bfe7-4b62-4dca-bfff-8158422dfd5e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>id</name>
       <type>Main</type>
       <value>wp-submit</value>
-      <webElementGuid>00ce6297-d32c-4500-9ec4-fea72c8aaf85</webElementGuid>
+      <webElementGuid>c817c3eb-740f-44d5-9633-01ee111e6a6c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>button button-primary button-large</value>
-      <webElementGuid>2d9d5108-89ae-4187-9fb0-94b3e5b261a5</webElementGuid>
+      <webElementGuid>66eaccc2-c898-4ba6-b633-4e6b588c46a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Log In</value>
-      <webElementGuid>05a24895-13f3-4f08-8a4a-1cbafab5a5a5</webElementGuid>
+      <webElementGuid>c2cfb700-0801-41e3-98d7-1cb9f640dbdc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;wp-submit&quot;)</value>
-      <webElementGuid>76c293ba-3af3-401d-ad55-e259e959e435</webElementGuid>
+      <webElementGuid>142a9db4-8af6-4f2f-9bce-0c9a98bbdb67</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='wp-submit']</value>
-      <webElementGuid>e5fc52af-3c31-48c0-ae9d-3b2cb0c908c1</webElementGuid>
+      <webElementGuid>8adf5322-aad3-4c58-88ec-05eaf7b8c26d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='loginform']/p[3]/input</value>
-      <webElementGuid>34751dfd-972a-42b8-ac4f-aea25cbf9bd6</webElementGuid>
+      <webElementGuid>a7ec9063-0034-4cdc-8fd6-a67721761c23</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//p[3]/input</value>
-      <webElementGuid>500aa315-8138-46b1-bd96-16588a417fe1</webElementGuid>
+      <webElementGuid>7cd6cae2-6697-4bf2-a69c-5d6d276fa854</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'submit' and @name = 'wp-submit' and @id = 'wp-submit']</value>
-      <webElementGuid>7adf96cc-264b-4806-a97f-bec154d9bab7</webElementGuid>
+      <webElementGuid>de250546-1074-4d01-bf99-c870f42620d3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

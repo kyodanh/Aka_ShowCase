@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Deselect_thumbnail</name>
+   <tag></tag>
+   <elementGuidId>d6219f18-b77c-4f19-bfc6-29d5d156445c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.attachment-preview.js--select-attachment.type-image.subtype-png.landscape > div.thumbnail</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='__attachments-view-51']/li[2]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c9df4b24-148f-4122-94b9-e080e7718775</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>thumbnail</value>
+      <webElementGuid>7d3b54f1-c849-4c3a-be85-36ae72de1b9c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__attachments-view-51&quot;)/li[@class=&quot;attachment save-ready&quot;]/div[@class=&quot;attachment-preview js--select-attachment type-image subtype-png landscape&quot;]/div[@class=&quot;thumbnail&quot;]</value>
+      <webElementGuid>b65b9d7c-64be-45e4-a5f9-72b7af7c9d7e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='__attachments-view-51']/li[2]/div/div</value>
+      <webElementGuid>a1679287-0f83-49b7-a23a-4b15d40339bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Deselect'])[1]/following::div[2]</value>
+      <webElementGuid>f665656f-1a49-4ec9-bf90-37f938ff73d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Media list'])[1]/following::div[6]</value>
+      <webElementGuid>ee59d9a3-163a-4a61-9a85-94d70a6c905a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Deselect'])[2]/preceding::div[2]</value>
+      <webElementGuid>e2d21648-7cfc-4add-97dd-d83eb9739fa5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Deselect'])[3]/preceding::div[5]</value>
+      <webElementGuid>751077a7-0cd9-48d9-bfa2-80d9f97eb43c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/div/div</value>
+      <webElementGuid>415a93b4-aba4-477a-bb44-e3d14095952e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

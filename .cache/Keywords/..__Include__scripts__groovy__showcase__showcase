@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "4FC8653043EE318B2572E096F4C7C31B",
+  "keywordFileContentHash": "8B8317B65538A6595D8EDF70DC753079",
   "keywordClasses": [
     {
       "name": "showcase.showcase",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

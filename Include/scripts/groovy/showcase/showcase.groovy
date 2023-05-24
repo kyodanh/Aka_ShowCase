@@ -118,12 +118,14 @@ WebUI.setText(findTestObject('Object Repository/demo_sd/Page_Add New New  The ak
 	public void user_thực_hiện_chọn_category_position_và_tab_cho_ở_màn_hình_showcase() {
 		// Write code here that turns the phrase above into concrete actions
 		// Write code here that turns the phrase above into concrete actions
-		WebUI.sendKeys(findTestObject("Object Repository/ShowCase/category/radio_button_360"),Keys.chord(Keys.END))
+		WebUI.scrollToElement(findTestObject('Object Repository/ShowCase/category/radio_button_360'), 3)
+//		WebUI.sendKeys(findTestObject("Object Repository/ShowCase/category/radio_button_360"),Keys.chord(Keys.END))
 		def a = WebUI.getAttribute(findTestObject("Object Repository/ShowCase/category/radio_button_360"), "value")
 		KeywordUtil.logInfo(a)
 		WebUI.click(findTestObject("Object Repository/ShowCase/category/radio_button_360")) //cần làm câu lệnh loop để lấy hết ID
 		/////////
-		WebUI.sendKeys(findTestObject("Object Repository/ShowCase/positions/positions"),Keys.chord(Keys.END))
+		WebUI.scrollToElement(findTestObject('Object Repository/ShowCase/positions/positions'), 3)
+//		WebUI.sendKeys(findTestObject("Object Repository/ShowCase/positions/positions"),Keys.chord(Keys.END))
 		def b = WebUI.getAttribute(findTestObject("Object Repository/ShowCase/positions/radio_newpage"), "value")
 		KeywordUtil.logInfo(b)
 		WebUI.click(findTestObject("Object Repository/ShowCase/positions/radio_newpage")) //cần làm câu lệnh loop để lấy hết ID
@@ -132,19 +134,39 @@ WebUI.setText(findTestObject('Object Repository/demo_sd/Page_Add New New  The ak
 	@When("User thực hiện nhập thông tin web")
 	public void user_thực_hiện_nhập_thông_tin_web() {
 		// Write code here that turns the phrase above into concrete actions
-		
+		WebUI.click(findTestObject("Object Repository/ShowCase/txt_weblink"))
+		WebUI.sendKeys(findTestObject("Object Repository/ShowCase/txt_weblink"),"test title")
 	}
 	
 	@When("user thực hiện chọn hình")
 	public void user_thực_hiện_chọn_hình() {
 		// Write code here that turns the phrase above into concrete actions
-	
+	/// user chọn logo hình 
+		WebUI.scrollToElement(findTestObject('Object Repository/ShowCase/btn_logo_add'), 3)
+		WebUI.click(findTestObject("Object Repository/ShowCase/btn_logo_add"))
+		def a = WebUI.getAttribute(findTestObject("Object Repository/ShowCase/hinh_logo/hinh_logo"), "data-id")
+		KeywordUtil.logInfo(a)
+		WebUI.click(findTestObject("Object Repository/ShowCase/hinh_logo/id_hinh_logo")) //cần làm câu lệnh loop để lấy hết ID
+		WebUI.click(findTestObject("Object Repository/ShowCase/hinh_logo/btn_chonhinh_logo")) //cần làm câu lệnh loop để lấy hết ID
+//		/////////// user chọn hình cho bài viết 
+		WebUI.scrollToElement(findTestObject('Object Repository/ShowCase/Gallery/btn_addnew'), 3)
+		WebUI.click(findTestObject("Object Repository/ShowCase/Gallery/btn_addnew"))
+//		def b = WebUI.getAttribute(findTestObject("Object Repository/ShowCase/hinh_logo/hinh_logo"), "data-id")
+//		KeywordUtil.logInfo(b)
+//		WebUI.click(findTestObject("Object Repository/ShowCase/Gallery/hinh_gallery_1")) //cần làm câu lệnh loop để lấy hết ID
+//		WebUI.click(findTestObject("Object Repository/ShowCase/Gallery/hinh_gallery_2")) //cần làm câu lệnh loop để lấy hết ID
+		WebUI.click(findTestObject('Object Repository/ShowCase/Gallery/hinh_gallery_1'))
+		
+		WebUI.click(findTestObject('Object Repository/ShowCase/Gallery/hinh_gallery_2'))
+
+		WebUI.click(findTestObject('Object Repository/ShowCase/Gallery/btn_sellect'))
 	}
 	
 	@When("User bấm vào publist showcase")
 	public void user_bấm_vào_publist_showcase() {
 		// Write code here that turns the phrase above into concrete actions
-		
+		WebUI.scrollToElement(findTestObject('Object Repository/ShowCase/btn_publish'), 3)
+		WebUI.click(findTestObject("Object Repository/ShowCase/btn_publish"))
 	}
 	
 	@Then("Hệ thống hiển thị thông báo publish showcase thành công")

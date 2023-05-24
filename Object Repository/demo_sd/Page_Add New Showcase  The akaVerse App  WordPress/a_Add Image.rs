@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Add Image</name>
+   <tag></tag>
+   <elementGuidId>551ae1d4-cab7-496c-8833-c72cdb79321a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.acf-button.button</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='acf-group_6364e12726c46']/div[2]/div[2]/div[2]/div/div[2]/p/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>ddde495c-95fe-48d5-9e8c-49a4e805845f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-name</name>
+      <type>Main</type>
+      <value>add</value>
+      <webElementGuid>209deedf-19a8-4a60-81e5-92468485b32b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>acf-button button</value>
+      <webElementGuid>52ade0d0-3ab9-43e5-9a84-c8cb46035638</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>58c6da31-518f-425f-81be-32161032b050</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add Image</value>
+      <webElementGuid>1b2e4398-e279-42a4-97ae-23a928bd8cf9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;acf-group_6364e12726c46&quot;)/div[@class=&quot;inside acf-fields -top&quot;]/div[@class=&quot;acf-field acf-field-image acf-field-640aa87dfeedb&quot;]/div[@class=&quot;acf-input&quot;]/div[@class=&quot;acf-image-uploader&quot;]/div[@class=&quot;hide-if-value&quot;]/p[1]/a[@class=&quot;acf-button button&quot;]</value>
+      <webElementGuid>3683b3f8-b004-4dcc-ad23-e60bfbc79ed1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='acf-group_6364e12726c46']/div[2]/div[2]/div[2]/div/div[2]/p/a</value>
+      <webElementGuid>62ad8b55-49bc-4f38-9403-091634bef332</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Add Image')]</value>
+      <webElementGuid>91664e86-c3b9-477f-9682-0c535156adfe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logo'])[1]/following::a[3]</value>
+      <webElementGuid>8fa4c68f-2b7d-456f-bcde-19085125d527</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Client'])[1]/following::a[3]</value>
+      <webElementGuid>8e38981a-efaf-4a5b-b4e0-e9dd6c56942e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gallery'])[1]/preceding::a[1]</value>
+      <webElementGuid>dce2f4fa-aa43-4c5a-b699-031cf73460e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Type'])[1]/preceding::a[4]</value>
+      <webElementGuid>ee37e728-3faa-435e-8140-447596da2b05</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Add Image']/parent::*</value>
+      <webElementGuid>1319899a-a152-4c83-8647-f345006d3161</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[25]</value>
+      <webElementGuid>cc24d8de-6b78-4c4f-b6bb-7c60039212af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/p/a</value>
+      <webElementGuid>d5599491-0beb-45b6-8f43-1bfc176537ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#' and (text() = 'Add Image' or . = 'Add Image')]</value>
+      <webElementGuid>4ac4db6a-48f2-4ba2-8390-db2e4aeb377e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

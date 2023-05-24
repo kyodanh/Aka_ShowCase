@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Media list_thumbnail_1</name>
+   <tag></tag>
+   <elementGuidId>b6c80d25-c45b-4877-8b80-d9ac565c3551</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#__attachments-view-828 > li.attachment.save-ready > div.attachment-preview.js--select-attachment.type-image.subtype-jpeg.portrait > div.thumbnail</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='__attachments-view-828']/li/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c90c2d37-7313-45e5-8345-95706c627f4d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>thumbnail</value>
+      <webElementGuid>2b86a4ea-79a0-4b1f-a733-464373d8f108</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__attachments-view-828&quot;)/li[@class=&quot;attachment save-ready&quot;]/div[@class=&quot;attachment-preview js--select-attachment type-image subtype-jpeg portrait&quot;]/div[@class=&quot;thumbnail&quot;]</value>
+      <webElementGuid>353e12ec-b0d4-48be-8947-347892aee0de</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='__attachments-view-828']/li/div/div</value>
+      <webElementGuid>0ed34065-4ada-4bfd-b293-e2e95791dd53</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Media list'])[2]/following::div[3]</value>
+      <webElementGuid>ae80167c-a2e0-41e0-886d-7f69eb967a58</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Files'])[3]/following::div[5]</value>
+      <webElementGuid>6867a3cd-cb3e-4b6a-bd8c-ff1d6b633ccc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Deselect'])[81]/preceding::div[2]</value>
+      <webElementGuid>731a326b-b3d9-424f-b32e-34f7448f7613</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Deselect'])[82]/preceding::div[5]</value>
+      <webElementGuid>cc33bd71-8f2c-4cfe-9c74-9c2de9d0f154</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[20]/div/div/div/div[3]/div[2]/div/div[3]/ul/li/div/div</value>
+      <webElementGuid>afaaf367-085d-4934-b67c-50658879ee1c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
