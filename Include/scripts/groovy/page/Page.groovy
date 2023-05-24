@@ -80,6 +80,8 @@ class Page {
 		// Write code here that turns the phrase above into concrete actions
 		WebUI.click(findTestObject("Object Repository/Page/Checkxoa"))	
 		WebUI.click(findTestObject("Object Repository/Page/Xoa"))
+		WebUI.click(findTestObject("Object Repository/Bookmarks/Apply"))
+		
 		
 	}
 	

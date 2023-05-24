@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Checkxoa</name>
+   <name>Apply</name>
    <tag></tag>
-   <elementGuidId>46483140-91e4-44a4-94bb-70f6deb23b11</elementGuidId>
+   <elementGuidId>3d7614eb-f3e7-4dae-912a-f1eaa78972f4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div[2]/div[2]/div[1]/div[4]/form[1]/table/tbody/tr/th/input</value>
+         <value>//*[@id=&quot;doaction&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>
