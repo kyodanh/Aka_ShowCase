@@ -1,6 +1,6 @@
 
 @tag
-Feature: Thực hiện chức năng bookmarks
+Feature:  Thực hiện kiểm tra tính năng bookmarks
 
   @tag1
   Scenario Outline: Thực hiện vào trang bookmarks và thêm mới

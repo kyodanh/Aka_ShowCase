@@ -54,6 +54,12 @@ class medialibrary {
 		WebUI.click(findTestObject("Object Repository/MediaLibrary/Mediataskbar"))
 		WebUI.click(findTestObject("Object Repository/MediaLibrary/Media them moi"))
 	}
+	@When("Đăng nhập thành công và mở màn hình trang chủ tìm kiếm")
+	public void đăng_nhập_thành_công_và_mở_màn_hình_trang_chủ_tìm_kiếm() {
+		// Write code here that turns the phrase above into concrete actions
+		WebUI.click(findTestObject("Object Repository/MediaLibrary/Mediataskbar"))
+		WebUI.click(findTestObject("Object Repository/MediaLibrary/Mànhinhchinh"))
+	}
 
 	@And("Thêm mới một Medialibrary")
 	public void thêm_mới_một_Meo_Medialibrary() {
@@ -61,5 +67,14 @@ class medialibrary {
 		WebUI.uploadFile(findTestObject('Object Repository/MediaLibrary/Chọn file'), 'C:\\Users\\quynv36\\git\\Aka_ShowCase_Auto\\a.jpg')
 		WebUI.click(findTestObject("Object Repository/MediaLibrary/Upload"))
 		WebUI.waitForPageLoad(5)
+	}
+	@When("Tìm kiếm media và xóa media")
+	public void tìm_kiếm_media_và_xóa_media() {
+		// Write code here that turns the phrase above into concrete actions
+		WebUI.click(findTestObject("Object Repository/MediaLibrary/Filter"))
+		WebUI.click(findTestObject("Object Repository/MediaLibrary/Check"))
+		WebUI.click(findTestObject("Object Repository/MediaLibrary/chọn delete"))
+		WebUI.click(findTestObject("Object Repository/MediaLibrary/btn_Apply"))
+	
 	}
 }
