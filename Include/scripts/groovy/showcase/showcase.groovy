@@ -172,6 +172,14 @@ WebUI.setText(findTestObject('Object Repository/demo_sd/Page_Add New New  The ak
 	@Then("Hệ thống hiển thị thông báo publish showcase thành công")
 	public void hệ_thống_hiển_thị_thông_báo_publish_showcase_thành_công() {
 		// Write code here that turns the phrase above into concrete actions
-		
+		def text = WebUI.getText(findTestObject("Object Repository/ShowCase/thongbao_thanhcong"))
+		KeywordUtil.logInfo(text)
+		if(test=="Post published. View post") {
+			KeywordUtil.logInfo("ShowCase được thêm mới thành công ("+text+")")
+			WebUI.closeBrowser()
+		}else {
+			KeywordUtil.markFailedAndStop("Hệ thống thêm mới không thành công")
+			WebUI.closeBrowser()
+		}
 	}
 }

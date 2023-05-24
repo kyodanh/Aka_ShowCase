@@ -19,7 +19,7 @@
 @tag
 Feature: Login vào hệ thống 
 
-  @tag1
+  @Loginthanhcong
   Scenario Outline: User thực hiện đăng nhập vào hệ thống aka
     Given User thực hiện truy cập vào hệ thống
     When User nhập thông tin <username> và <password>
