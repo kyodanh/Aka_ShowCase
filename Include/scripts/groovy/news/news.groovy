@@ -143,13 +143,13 @@ class news {
 	public void user_thực_hiện_chọn_category_position_và_tab() {
 		// Write code here that turns the phrase above into concrete actions
 		WebUI.scrollToElement(findTestObject('Object Repository/News/category/radio_button_360'), 3)
-//		WebUI.sendKeys(findTestObject("Object Repository/News/category/radio_button_360"),Keys.chord(Keys.END))
+		//		WebUI.sendKeys(findTestObject("Object Repository/News/category/radio_button_360"),Keys.chord(Keys.END))
 		def a = WebUI.getAttribute(findTestObject("Object Repository/News/category/radio_button_360"), "value")
 		KeywordUtil.logInfo(a)
 		WebUI.click(findTestObject("Object Repository/News/category/radio_button_360")) //cần làm câu lệnh loop để lấy hết ID
 		/////////
 		WebUI.scrollToElement(findTestObject('Object Repository/News/positions/positions'), 3)
-//		WebUI.sendKeys(findTestObject("Object Repository/News/positions/positions"),Keys.chord(Keys.END))
+		//		WebUI.sendKeys(findTestObject("Object Repository/News/positions/positions"),Keys.chord(Keys.END))
 		def b = WebUI.getAttribute(findTestObject("Object Repository/News/positions/radio_newpage"), "value")
 		KeywordUtil.logInfo(b)
 		WebUI.click(findTestObject("Object Repository/News/positions/radio_newpage")) //cần làm câu lệnh loop để lấy hết ID
