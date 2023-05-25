@@ -2,7 +2,7 @@
 @tag
 Feature: Thực hiện chức năng bookmarks
 
-  @tag1
+  @ThemMoiBookmarkThanhCong
   Scenario Outline: Thực hiện vào trang bookmarks và thêm mới
     Given Thực hiện mở hệ thống và nhập <username> và <password>
     When Nhấn Login để thực hiện đăng nhập

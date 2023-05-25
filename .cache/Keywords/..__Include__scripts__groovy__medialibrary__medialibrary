@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "keywordFileContentHash": "32748E54DB9B912DCCF19C3F6BD059FB",
+=======
+  "keywordFileContentHash": "4A4E702BD5B4BB9886C09FCE3B16FAE8",
+>>>>>>> branch 'master' of https://github.com/kyodanh/Aka_ShowCase_Auto.git
   "keywordClasses": [
     {
       "name": "medialibrary.medialibrary",

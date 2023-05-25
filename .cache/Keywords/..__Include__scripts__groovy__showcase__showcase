@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "keywordFileContentHash": "F0304CA7114D36593392DBCDA27C3DDC",
+=======
+  "keywordFileContentHash": "482895ED2306A38152DE24A12E2EA52C",
+>>>>>>> branch 'master' of https://github.com/kyodanh/Aka_ShowCase_Auto.git
   "keywordClasses": [
     {
       "name": "showcase.showcase",

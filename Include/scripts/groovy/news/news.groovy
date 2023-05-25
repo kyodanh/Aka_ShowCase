@@ -116,12 +116,12 @@ class news {
 	public void user_thực_hiện_nhập_thông_tin_thêm_mới_gồm_title_test_nội_dung_test() {
 		// Write code here that turns the phrase above into concrete actions
 		WebUI.click(findTestObject("Object Repository/News/txt_titlle"))
-		WebUI.sendKeys(findTestObject("Object Repository/News/txt_titlle"),"test title")	
-		
-	    WebUI.click(findTestObject('Object Repository/demo_sd/Page_Add New New  The akaVerse App  WordPress/html_mce-content-body div.mce-resizehandle _b7d6de'))
+		WebUI.sendKeys(findTestObject("Object Repository/News/txt_titlle"),"test title")
 
-WebUI.setText(findTestObject('Object Repository/demo_sd/Page_Add New New  The akaVerse App  WordPress/body_test noi dung'), 
-    '<p style="">test noi dung</p><div id="katalon" style="top: 0px;"><div id="katalon-rec_elementInfoDiv" style="display: none;"></div></div>')
+		WebUI.click(findTestObject('Object Repository/demo_sd/Page_Add New New  The akaVerse App  WordPress/html_mce-content-body div.mce-resizehandle _b7d6de'))
+
+		WebUI.setText(findTestObject('Object Repository/demo_sd/Page_Add New New  The akaVerse App  WordPress/body_test noi dung'),
+				'<p style="">test noi dung</p><div id="katalon" style="top: 0px;"><div id="katalon-rec_elementInfoDiv" style="display: none;"></div></div>')
 
 
 	}
@@ -133,25 +133,27 @@ WebUI.setText(findTestObject('Object Repository/demo_sd/Page_Add New New  The ak
 		WebUI.click(findTestObject("Object Repository/News/feature_image"))
 		def a = WebUI.getAttribute(findTestObject("Object Repository/News/hinh/hinh_1"), "data-id")
 		KeywordUtil.logInfo(a)
-		WebUI.click(findTestObject("Object Repository/News/hinh/hinh_1")) //cần làm câu lệnh loop để lấy hết ID 
+		WebUI.click(findTestObject("Object Repository/News/hinh/hinh_1")) //cần làm câu lệnh loop để lấy hết ID
 		WebUI.click(findTestObject("Object Repository/News/hinh/btn_chonhinh")) //cần làm câu lệnh loop để lấy hết ID
-		
+
 	}
-	
+
 
 	@When("User thực hiện chọn category , position và tab")
 	public void user_thực_hiện_chọn_category_position_và_tab() {
 		// Write code here that turns the phrase above into concrete actions
-		WebUI.sendKeys(findTestObject("Object Repository/News/category/radio_button_360"),Keys.chord(Keys.END))
+		WebUI.scrollToElement(findTestObject('Object Repository/News/category/radio_button_360'), 3)
+//		WebUI.sendKeys(findTestObject("Object Repository/News/category/radio_button_360"),Keys.chord(Keys.END))
 		def a = WebUI.getAttribute(findTestObject("Object Repository/News/category/radio_button_360"), "value")
 		KeywordUtil.logInfo(a)
 		WebUI.click(findTestObject("Object Repository/News/category/radio_button_360")) //cần làm câu lệnh loop để lấy hết ID
 		/////////
-		WebUI.sendKeys(findTestObject("Object Repository/News/positions/positions"),Keys.chord(Keys.END))
+		WebUI.scrollToElement(findTestObject('Object Repository/News/positions/positions'), 3)
+//		WebUI.sendKeys(findTestObject("Object Repository/News/positions/positions"),Keys.chord(Keys.END))
 		def b = WebUI.getAttribute(findTestObject("Object Repository/News/positions/radio_newpage"), "value")
 		KeywordUtil.logInfo(b)
 		WebUI.click(findTestObject("Object Repository/News/positions/radio_newpage")) //cần làm câu lệnh loop để lấy hết ID
-	
+
 	}
 
 	@When("User thực hiện chọn showcase")
@@ -172,6 +174,14 @@ WebUI.setText(findTestObject('Object Repository/demo_sd/Page_Add New New  The ak
 	@Then("Hệ thống hiển thị thông báo thành công")
 	public void hệ_thống_hiển_thị_thông_báo_thành_công() {
 		// Write code here that turns the phrase above into concrete actions
-        
+		def text = WebUI.getText(findTestObject("Object Repository/ShowCase/thongbao_thanhcong"))
+		KeywordUtil.logInfo(text)
+		if(text=="Post published. View post") {
+			KeywordUtil.logInfo("ShowCase được thêm mới thành công ("+text+")")
+			WebUI.closeBrowser()
+		}else {
+			KeywordUtil.markFailedAndStop("Hệ thống thêm mới không thành công")
+			WebUI.closeBrowser()
+		}
 	}
 }

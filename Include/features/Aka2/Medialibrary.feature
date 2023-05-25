@@ -2,7 +2,7 @@
 @tag
 Feature: Thực hiện mở trang medialibrary và thêm mới
 
-   @tag1
+  @Uploadhinhthanhcong
   Scenario Outline: Thực hiện vào trang Medialibrary và thêm mới
     Given Thực hiện mở hệ thống và nhập <username> và <password>
     When Nhấn Login để thực hiện đăng nhập

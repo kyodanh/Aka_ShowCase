@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;cb-select-976&quot;]</value>
+         <value>/html/body/div[1]/div[2]/div[2]/div[1]/div[4]/form[1]/table/tbody/tr/th/input</value>
       </entry>
       <entry>
          <key>BASIC</key>

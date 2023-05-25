@@ -17,18 +17,17 @@
 ## (Comments)
 #Sample Feature Definition Template
 @tag
-Feature: Title of your feature
-  I want to use this template for my feature file
+Feature: Thực hiện kiểm tra tính năng bài viết và thêm bài viết mới 
 
-  #@tag1
-  #Scenario Outline: Truy cập vào phân hệ news 
-    #Given User thực hiện truy cập web và đăng nhập với username : <username> và password : <password>
-    #When User thực hiện mở trang News
-    #Then Hệ thống hiển thị table danh sách của trang New
-#
-  #Examples: 
-      #| username | password         |
-      #| testuser | akv@2030testuser |
+  @tag1
+  Scenario Outline: Truy cập vào phân hệ news 
+    Given User thực hiện truy cập web và đăng nhập với username : <username> và password : <password>
+    When User thực hiện mở trang News
+    Then Hệ thống hiển thị table danh sách của trang New
+
+  Examples: 
+      | username | password         |
+      | testuser | akv@2030testuser |
       
   @themmoinews
   Scenario Outline: User thực hiện thêm mới bản tin 
