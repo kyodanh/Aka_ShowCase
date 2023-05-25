@@ -20,7 +20,7 @@
 Feature: Thực hiện mở trang và thêm mới page
 
 
-  @tag1
+  @Themmoithanhcongmotpage
   Scenario Outline: Thực hiện thêm mới page
     Given Thực hiện mở hệ thống và nhập <username> và <password>
     When Nhấn Login để thực hiện đăng nhập
@@ -33,7 +33,7 @@ Feature: Thực hiện mở trang và thêm mới page
       | name1 |testuser  | akv@2030testuser |Meo|
       
     
-  @tag2
+  @Timkiemvaxoathanhcongmotpage
   Scenario Outline: Thực hiện tìm kiếm
     Given Thực hiện mở hệ thống và nhập <username> và <password>
     When Nhấn Login để thực hiện đăng nhập

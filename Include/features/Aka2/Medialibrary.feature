@@ -8,7 +8,7 @@ Feature: Thực hiện mở trang medialibrary và thêm mới
     When Nhấn Login để thực hiện đăng nhập
     And Đăng nhập thành công và mở màn hình trang chủ
     And Thêm mới một Medialibrary
-    Then Hoàn thành thêm mới và đóng hệ thống
+    Then Hoàn thành upload và đóng hệ thống
 
     Examples: 
       | name  | username | password  |Test|

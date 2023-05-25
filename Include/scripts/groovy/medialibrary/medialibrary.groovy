@@ -58,8 +58,13 @@ class medialibrary {
 	@And("Thêm mới một Medialibrary")
 	public void thêm_mới_một_Meo_Medialibrary() {
 		// Write code here that turns the phrase above into concrete actions
-		WebUI.uploadFile(findTestObject('Object Repository/MediaLibrary/Chọn file'), '\\a.jpg')
+		WebUI.uploadFile(findTestObject('Object Repository/MediaLibrary/Chọn file'), 'C:\\Users\\quynv36\\git\\Aka_ShowCase_Auto\\a.jpg')
 		WebUI.click(findTestObject("Object Repository/MediaLibrary/Upload"))
+		WebUI.waitForPageLoad(5)
+	}
+	@Then("Hoàn thành upload và đóng hệ thống")
+	public void hoàn_thành_upload_và_đóng_hệ_thống() {
+		// Write code here that turns the phrase above into concrete actions
 		WebUI.waitForPageLoad(5)
 	}
 }

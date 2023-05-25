@@ -15,7 +15,7 @@ Feature: Thực hiện chức năng bookmarks
       | name1 |testuser  | akv@2030testuser |Meo|
 
 
-  @tag2
+  @Timkiemvaxoathanhcongbookmarks
   Scenario Outline: Thực hiện tìm kiếm bookmarks
     Given Thực hiện mở hệ thống và nhập <username> và <password>
     When Nhấn Login để thực hiện đăng nhập

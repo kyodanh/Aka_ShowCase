@@ -19,31 +19,52 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>78487cb3-aa98-40a6-9418-fc2024789bab</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/TestCase_Luong_DanhNC14/Upload_HinhAnh</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>44ba28ba-adf5-4520-bd97-f303b97886b8</guid>
+      <guid>5d45c6ca-3ee5-4799-b2c2-bc5b5da993b3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TestCase_Luong_DanhNC14/ThemMoi_BookMark</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>06cc77e8-15e2-4799-9df5-455a35e56e7a</guid>
+      <guid>70b3a54d-1480-403a-bf5c-e669a9e3451c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestCase_Luong_DanhNC14/TimKiemVaXoaBookmarks</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>073a8495-bc65-4bd7-9117-d25c0c654247</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestCase_Luong_DanhNC14/Upload_HinhAnh</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b2e22d6f-9d06-49b4-8921-28a758aa6224</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestCase_Luong_DanhNC14/ThemMoiBaiViet</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>398855f6-43af-4d9c-8a9f-4225f6ced054</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TestCase_Luong_DanhNC14/ThemMoiShowCase</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>49efa472-6656-49a7-9276-5234bd5285f9</guid>
+      <guid>a041c562-fc72-4641-a04c-415caf5d2f59</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TestCase_Luong_DanhNC14/ThemMoiBaiViet</testCaseId>
+      <testCaseId>Test Cases/TestCase_Luong_DanhNC14/ThemMoiPage</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e2e2ef84-dcd6-401d-abfa-f6ac8784c605</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestCase_Luong_DanhNC14/TimKiemVaXoaPage</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
